@@ -1,0 +1,12 @@
+
+$("#one").click(function() {
+  $("body")("background-color", "green");
+});
+
+$("#two").click(function() {
+  $("body")("background-color", "red");
+});
+
+$("#reset").click(function() {
+  $("body")("background-color", "white");
+});

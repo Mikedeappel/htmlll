@@ -1,0 +1,59 @@
+<html>
+<head>
+    <title> Nieuwsbrief! </title>
+<link rel="shortcut icon" type="image/png" href="krant.png"/>
+<style>
+    
+             * {
+            margin: 0;
+            padding: 0;
+        }
+        .imgbox {
+            display: grid;
+            height: 100%;
+        }
+        .center-fit {
+            max-width: 100%;
+            max-height: 100vh;
+            margin: auto;
+        }
+  
+    </style>
+    </head>
+<body>
+    <div class="imgbox">
+   <img class="center-fit" src="tijgerr.jpg" alt="tijger" width="800" height="450">
+     </div>
+    <h1 style="border-bottom: yellow solid medium">Contractformulier</h1>
+   <br>
+   <form action="/action_page.php">
+       <fieldset>
+  <label for="fname">Naam:</label> <br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Email:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"> <br>
+            <label for="pwd">Wachtwoord:</label><br>
+  <input type="Wachtwoord" id="pwd" name="pwd">
+           <br>
+     <label for="Geslacht">Geslacht:</label><br>
+  <select id="Geslacht" name="Geslacht">
+    <option value="Man">Man</option>
+    <option value="Vrouw">Vrouw</option>
+      <option value="Geslacht">"Anders"</option>
+           </select>
+      <br><p2>Media:</p2> <br>
+       <input type="radio" id="Media" name="Media" value="Nieuwsbrief">
+  <label for="Nieuwsbrief">Nieuwsbrief</label><br>
+     <input type="radio" id="Media" name="Media" value="Mailling">
+  <label for="Mailling">Mailling</label><br>
+     <input type="radio" id="Media" name="Media" value="Post">
+  <label for="Post">Post</label>
+  
+       <br><br>
+  <input type="submit" value="Stuur me op!">
+        
+       </fieldset>
+</form> 
+    
+    </body>
+    </html>
